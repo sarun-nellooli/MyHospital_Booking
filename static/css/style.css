@@ -1,0 +1,51 @@
+li:hover {
+    background-color: gray;
+    border-radius: 10px;
+    border: 1px solid yellow;
+}
+html,body {
+  background-color: rgb(212, 210, 210);
+}
+
+
+    
+.firstsection{
+    
+  /* It is to make the height of the 
+  viewport to be 100 */  
+  height:100vh;
+}
+.firstHalf{    
+  width:75%;
+  display:flex;
+    
+  /* It is to specify the direction of 
+  the flexible items */
+  flex-direction:column;
+  justify-content:center
+}
+    
+.firstHalf img{    
+  display:flex;
+  border-radius:9050px;
+}
+
+.text-big{
+  font-family: 'Piazzolla', serif;
+    
+  /* The text to have a style of bold */
+   font-weight: bold;
+    
+  /* The size of the text to be appearing as
+  bigger to distinguish itself from the text 
+  in the class text-small */  
+  font-size: 41px;
+    
+  /* The text to be aligned at center */  
+  text-align:center;
+}
+.text-small{    
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 18px;
+  text-align:center;
+}

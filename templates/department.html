@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title%}
+Department
+{% endblock %}
+
+{% block content%}
+<h1 class="text-big"> Our Departments </h1>
+<hr>
+
+{% for x in depart %}
+<div class=" text-small mx-auto w-50 bg-success text-center text-white p-3 my-3 border border-warning rounded"style="--bs-bg-opacity: .5;">
+    <h1 class="text-big">{{x.dep_name}}</h1>
+    <p>{{x.dep_decription}}</p>
+</div>
+{% endfor %}
+
+{% endblock %}
